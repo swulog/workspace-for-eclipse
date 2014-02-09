@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.ivorytower.app.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+
+
+/**
+ * @author longchao
+ *
+ */
+@Entity
+@Table(name="t_user")
+
+public class User {
+
+}

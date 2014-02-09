@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.ivorytower.app.entity;
+
+
+
+/**
+ * @author longchao
+ *
+ */
+@Entity
+@Table(name="t_user")
+
+public class User {
+
+}

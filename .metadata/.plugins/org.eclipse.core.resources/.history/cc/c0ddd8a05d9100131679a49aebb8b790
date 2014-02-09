@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.ivorytower.app.entity;
+
+/**
+ * @author longchao
+ *
+ */
+public class User {
+
+}

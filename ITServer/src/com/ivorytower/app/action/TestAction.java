@@ -1,0 +1,44 @@
+package com.ivorytower.app.action;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.ivorytower.comm.Result;
+
+
+
+
+
+
+
+@Controller
+@RequestMapping("/comm")
+public class TestAction {
+
+	@Autowired
+	
+	static Logger logger = Logger.getLogger(TestAction.class.getName());
+	
+	@RequestMapping(value="/terminaltest")
+	@ResponseBody 
+	public Result collectCar(){
+		
+		logger.debug("*********************************************test	start*********************************************");
+		
+		Result result=new Result();
+		try{
+			//this.commService.f();
+			return result;
+		}catch(Exception e){
+			e.printStackTrace();
+			result.setSuccess(false);
+			result.setMsg("test出现异常");
+			return result;
+		}
+		
+	}
+	
+}

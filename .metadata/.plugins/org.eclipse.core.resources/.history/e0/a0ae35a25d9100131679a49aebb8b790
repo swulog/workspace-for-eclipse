@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.ivorytower.app.entity;
+
+import cn.com.enho.terminal.entity.Entity;
+import cn.com.enho.terminal.entity.Table;
+
+/**
+ * @author longchao
+ *
+ */
+@Entity
+@Table(name="t_user")
+public class User {
+
+}

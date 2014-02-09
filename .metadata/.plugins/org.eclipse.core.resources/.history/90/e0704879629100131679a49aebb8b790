@@ -1,0 +1,9 @@
+package com.ivorytower.app.action;
+
+
+
+@Controller
+@RequestMapping("/comm")
+public class TestAction {
+
+}

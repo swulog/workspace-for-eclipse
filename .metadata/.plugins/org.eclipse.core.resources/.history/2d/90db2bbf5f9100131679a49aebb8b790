@@ -1,0 +1,18 @@
+#log4j.rootLogger=info,stdout
+log4j.rootLogger=debug,stdout,LOG_FILE
+
+### 输出到控制台  ###
+log4j.addivity.org.apache=true  
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender  
+log4j.appender.Threshold=debug  
+log4j.appender.stdout.Target=System.out  
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout  
+log4j.appender.stdout.layout.ConversionPattern=[framework] %d - %c -%-4r [%t] %-5p %c %x - %m%n  
+log4j.appender.LOG_FILE=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.LOG_FILE.File=/logs/itserver
+log4j.appender.LOG_FILE.DatePattern='_'yyyy-MM-dd'.log'
+log4j.appender.LOG_FILE.ImmediateFlush=true
+log4j.appender.LOG_FILE.Append=true  
+log4j.appender.LOG_FILE.Threshold =debug
+log4j.appender.LOG_FILE.layout=org.apache.log4j.PatternLayout  
+log4j.appender.LOG_FILE.layout.ConversionPattern=%-d{yyyy-MM-dd HH\:mm\:ss}  [ %t\:%r ] - [ %p ]  %m%n

@@ -1,0 +1,17 @@
+package com.ivorytower.app.action;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+
+
+
+@Controller
+@RequestMapping("/comm")
+public class TestAction {
+
+	static Logger logger = Logger.getLogger(TestTerminalAction.class.getName());
+	
+}
