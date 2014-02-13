@@ -1,0 +1,18 @@
+<Beans>
+    <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
+        <activate>false</activate>
+        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>13f27fa5:14429410e67:-7f95</string>
+        </driverIdentifier>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>13f27fa5:14429410e67:-7fda</string>
+        </identifier>
+        <name>MYSSQLDriver</name>
+        <password encryption="true"/>
+        <promptForPassword>false</promptForPassword>
+        <schema Indexed="true"/>
+        <schemaDisplayPolicy>0</schemaDisplayPolicy>
+        <url>jdbc:mysql://localhost:3306/ITDB</url>
+        <userName>root</userName>
+    </Bean>
+</Beans>

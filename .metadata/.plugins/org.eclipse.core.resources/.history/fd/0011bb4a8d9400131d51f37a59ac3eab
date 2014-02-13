@@ -1,0 +1,24 @@
+package com.university.dao;
+
+import com.university.model.UserBaseInfo;
+
+
+/**
+ * 用户Dao
+ * 用户类信息接口
+ */
+public interface IUserDao {
+	
+	/**
+	 * 登录的方法
+	 * @param su
+	 * @return
+	 */
+	public boolean addUser(UserBaseInfo ubi);
+	public boolean deleteUser(UserBaseInfo ubi);
+	public boolean ModifyUser(UserBaseInfo ubi);
+	public boolean getUser(UserBaseInfo ubi);
+	
+	
+
+}

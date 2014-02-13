@@ -1,0 +1,13 @@
+package com.university.dao;
+
+
+/**
+ * 用户Dao
+ * 
+ * 
+ */
+public interface IUserDao {
+	
+	
+
+}

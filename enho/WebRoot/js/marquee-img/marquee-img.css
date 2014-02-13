@@ -1,0 +1,25 @@
+/* a{color:#333333; background:none; text-decoration:none; font:12px 宋体;}
+		img{ border:none; margin:0px;}
+		#outer{border:1px solid #CCCCCC; height:172px; width:585px; background:#990000; position:relative; padding-top:10px; overflow:hidden;}
+		#left{width:40px; display:block; float:left; height:162px; position:absolute; left:10px; z-index:2; opacity:0.05; filter:alpha(opacity=5); overflow:hidden;}
+		#right{width:40px; display:block; float:left; height:162px; position:absolute; left:535px; z-index:2; overflow:hidden; opacity:0.05; filter:alpha(opacity=5);}
+		#demo{overflow: hidden; width:565px;height:162px; float:left; margin:0 10px; position:absolute; z-index:0;}
+		.listname{height:156px; display:block; line-height:27px; text-align:center; padding:0 3px; border-left:1px solid #990000; border-right:1px solid #990000;}
+		.listimage{width:150px;height:130px;} */
+img{ border:none; margin:0px;}
+
+#marquee_img{
+	border:1px solid #CCCCCC; height:190px; width:585px; background:#990000; position:relative; padding-top:10px; overflow:hidden;
+}
+#marquee_lb{
+	width:40px; display:block; float:left; height:162px; position:absolute; left:10px; z-index:2; opacity:0.05; filter:alpha(opacity=5); overflow:hidden;
+}
+#marquee_rb{
+	width:40px; display:block; float:left; height:162px; position:absolute; left:535px; z-index:2; overflow:hidden; opacity:0.05; filter:alpha(opacity=5);
+}
+#marquee_div{overflow: hidden; width:565px;height:162px; float:left; margin:0 10px; position:absolute; z-index:0;}
+.listname{height:156px; display:block; line-height:27px; text-align:center; padding:0 3px; border-left:1px solid #990000; border-right:1px solid #990000;}
+.listimage{width:150px;height:130px;}
+
+
+

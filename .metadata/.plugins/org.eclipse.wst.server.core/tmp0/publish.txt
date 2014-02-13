@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Sun Feb 09 16:41:59 CST 2014
-org.eclipse.jst.jee.server\:/binary\:/Users/longchao/Documents/workspace\ for\ eclipse/ITServer/WebContent/WEB-INF/lib/spring-web-3.2.1.RELEASE.jar=/Applications/tomcat/wtpwebapps/ITServer/WEB-INF/lib/spring-web-3.2.1.RELEASE.jar
-org.eclipse.jst.jee.server\:ITServer=/Applications/tomcat/wtpwebapps/ITServer

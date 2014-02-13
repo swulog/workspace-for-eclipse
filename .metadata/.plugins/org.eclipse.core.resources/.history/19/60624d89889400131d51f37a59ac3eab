@@ -1,0 +1,13 @@
+package com.university.dao;
+
+
+/**
+ * 登录的方法
+ * @param su
+ * @return
+ */
+public interface IUserDao {
+	
+	
+
+}

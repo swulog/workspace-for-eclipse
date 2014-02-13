@@ -1,0 +1,9 @@
+#Thu Feb 13 17:23:37 GMT+08:00 2014
+SERVER_ENABLEMENT=true
+LIBRARY_PATH="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin\:/Applications/tomcat/bin"
+eclipse.preferences.version=1
+JDK_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+TOMCAT_BASE=/Applications/tomcat
+ENDORSED_DIRS="/Applications/tomcat/common/endorsed"
+TOMCAT_HOME=/Applications/tomcat
+TOMCAT_TEMP=/Applications/tomcat/temp

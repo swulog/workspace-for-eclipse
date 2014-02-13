@@ -1,0 +1,23 @@
+// default package
+
+import java.sql.Timestamp;
+
+
+/**
+ * UserBaseInfo entity. @author MyEclipse Persistence Tools
+ */
+public class UserBaseInfo extends AbstractUserBaseInfo implements java.io.Serializable {
+
+    // Constructors
+
+    /** default constructor */
+    public UserBaseInfo() {
+    }
+
+    
+    /** full constructor */
+    public UserBaseInfo(Integer pdiPpostid, String pdiTitle, String pdiContent, String pdiPicture, Integer pdiUserid, Timestamp pdiCreatetime) {
+        super(pdiPpostid, pdiTitle, pdiContent, pdiPicture, pdiUserid, pdiCreatetime);        
+    }
+   
+}

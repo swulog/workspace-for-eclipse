@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+			
+		<property name="url" value="jdbc:mysql://localhost:3306/ITDB?useUnicode=true&amp;characterEncoding=UTF-8" />
+		<property name="username" value="root" />
+		<property name="password" value="" />
+	</bean>
+
+	
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<!-- 依赖注入上面定义的数据源dataSource -->
+		<property name="dataSource" ref="dataSource" />
+		<!-- 注册Hibernate的ORM映射文件 配置多个映射文件 -->
+		<property name="mappingDirectoryLocations">
+			<list>
+				<value>classpath:com/university/model/</value>
+			</list>
+			<!-- 设置Hibernate的相关属性 -->
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<!-- 设置Hibernate的数据库方言 -->
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<!-- 设置Hibernate是否在控制台输出SQL语句，开发调试阶段通常设为true -->
+				<prop key="hibernate.show_sql">true</prop>
+				<!-- 设置Hibernate一个提交批次中的最大SQL语句数 -->
+				<prop key="hibernate.jdbc.batch_size">50</prop>
+				<prop key="hibernate.max_statement">100</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!--定义Hibernate的事务管理器HibernateTransactionManager -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<!-- 依赖注入上面定义的sessionFactory -->
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+
+	<!-- 装配通用数据库访问类BaseDAOImpl -->
+	<bean id="dao" class="com.university.dao.impl.BaseDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<!-- 
+	<!-- sysuserDao -->
+	<bean id="sysUserDao" class="com.university.dao.impl.SysUserDaoImpl">
+		<property name="dao" ref="dao"></property>
+	</bean>
+	
+	
+	<!-- action -->
+	<bean id="sysUserAction" class="com.university.action.SysUserAction" scope="prototype">
+		<property name="sysUserDao" ref="sysUserDao"></property>
+	</bean>
+	 -->
+</beans>

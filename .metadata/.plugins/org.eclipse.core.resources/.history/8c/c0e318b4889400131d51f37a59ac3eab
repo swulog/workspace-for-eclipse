@@ -1,0 +1,16 @@
+package com.university.dao;
+
+
+/**
+ * 用户Dao
+ * 用户类信息接口
+ * 1，注册用户
+ * 2，删除用户
+ * 3，修改用户
+ * 4，查找用户
+ */
+public interface IUserDao {
+	
+	
+
+}

@@ -19,6 +19,8 @@
 	
 	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
 	<context:component-scan base-package="com.ivorytower.app.action" ></context:component-scan> 
+	<context:component-scan base-package="com.ivorytower.app.dao.impl" ></context:component-scan> 
+	<context:component-scan base-package="com.ivorytower.app.service.impl" ></context:component-scan> 
 	
 	<!-- 默认的注解映射的支持 -->  
     <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
@@ -85,7 +87,7 @@
 			<mvc:mapping path="/terminal/*" /> 
 			<bean class="cn.com.enho.comm.interceptor.AuthInterceptor"></bean>
 		</mvc:interceptor>
-	</mvc:interceptors>  -->
+	</mvc:interceptors> --> 
 	
 	
 	<!-- <bean id="methodNameResolver" class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver"> 

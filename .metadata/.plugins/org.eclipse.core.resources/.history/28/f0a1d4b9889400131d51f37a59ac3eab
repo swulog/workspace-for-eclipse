@@ -1,0 +1,12 @@
+package com.university.dao;
+
+
+/**
+ * 用户Dao
+ * 用户类信息接口
+ */
+public interface IUserDao {
+	
+	
+
+}

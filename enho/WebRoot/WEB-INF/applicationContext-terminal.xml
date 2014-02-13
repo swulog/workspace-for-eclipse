@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:mvc="http://www.springframework.org/schema/mvc"  
+    xmlns:aop="http://www.springframework.org/schema/aop"  
+    xmlns:tx="http://www.springframework.org/schema/tx"  
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd  
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd 
+		http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd   
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd"> 
+	
+	<!-- service -->
+	<bean id="baseService" class="cn.com.enho.base.service.impl.BaseServiceImpl"></bean>
+	<bean id="userService" class="cn.com.enho.terminal.service.impl.UserServiceImpl"></bean>
+	<bean id="goodsService" class="cn.com.enho.terminal.service.impl.GoodsServiceImpl"></bean>
+	<bean id="carService" class="cn.com.enho.terminal.service.impl.CarServiceImpl"></bean>
+	<bean id="focusService" class="cn.com.enho.terminal.service.impl.FocusServiceImpl"></bean>
+	<bean id="collectGoodsService" class="cn.com.enho.terminal.service.impl.CollectGoodsServiceImpl"></bean>
+	<bean id="collectCarService" class="cn.com.enho.terminal.service.impl.CollectCarServiceImpl"></bean>
+	<bean id="imageService" class="cn.com.enho.terminal.service.impl.ImageServiceImpl"></bean>
+	<bean id="feedBackService" class="cn.com.enho.terminal.service.impl.FeedBackServiceImpl"></bean>
+	<bean id="tipoffService" class="cn.com.enho.terminal.service.impl.TipoffServiceImpl"></bean>
+	<bean id="commService" class="cn.com.enho.terminal.service.impl.CommServiceImpl"></bean>
+	<bean id="busService" class="cn.com.enho.terminal.service.impl.BusServiceImpl">
+		<property name="scheduler" ref="quartzScheduler"></property>
+		<property name="pushJobDetail" ref="pushJobDetail"></property>
+		<property name="checkJobDetail" ref="checkJobDetail"></property>
+	</bean>
+	<bean id="pushService" class="cn.com.enho.terminal.service.impl.PushServiceImpl"></bean>
+	<bean id="checkService" class="cn.com.enho.terminal.service.impl.StatusCheckServiceImpl"></bean>
+	
+	<!-- dao -->
+	<bean id="baseDao" class="cn.com.enho.base.dao.impl.BaseDaoImpl"></bean>
+	<bean id="userDao" class="cn.com.enho.terminal.dao.impl.UserDaoImpl"></bean>
+	<bean id="goodsDao" class="cn.com.enho.terminal.dao.impl.GoodsDaoImpl"></bean>
+	<bean id="carDao" class="cn.com.enho.terminal.dao.impl.CarDaoImpl"></bean>
+	<bean id="focusDao" class="cn.com.enho.terminal.dao.impl.FocusDaoImpl"></bean>
+	<bean id="collectGoodsDao" class="cn.com.enho.terminal.dao.impl.CollectGoodsDaoImpl"></bean>
+	<bean id="collectCarDao" class="cn.com.enho.terminal.dao.impl.CollectCarDaoImpl"></bean>
+	<bean id="imageDao" class="cn.com.enho.terminal.dao.impl.ImageDaoImpl"></bean>
+	<bean id="feedBackDao" class="cn.com.enho.terminal.dao.impl.FeedBackDaoImpl"></bean>
+	<bean id="tipoffDao" class="cn.com.enho.terminal.dao.impl.TipoffDaoImpl"></bean>
+	<bean id="commDao" class="cn.com.enho.terminal.dao.impl.CommDaoImpl"></bean>
+	<bean id="busDao" class="cn.com.enho.terminal.dao.impl.BusDaoImpl"></bean>
+	<bean id="checkServiceDao" class="cn.com.enho.terminal.dao.impl.StatusCheckDaoImpl"></bean>
+	
+</beans>
