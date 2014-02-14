@@ -19,7 +19,6 @@ public class Userrelationshipinfo implements java.io.Serializable {
 	private Integer uriId;
 	private Integer uriUsera;
 	private Integer uriUserb;
-	private Integer uriType;
 
 	// Constructors
 
@@ -28,11 +27,9 @@ public class Userrelationshipinfo implements java.io.Serializable {
 	}
 
 	/** full constructor */
-	public Userrelationshipinfo(Integer uriUsera, Integer uriUserb,
-			Integer uriType) {
+	public Userrelationshipinfo(Integer uriUsera, Integer uriUserb) {
 		this.uriUsera = uriUsera;
 		this.uriUserb = uriUserb;
-		this.uriType = uriType;
 	}
 
 	// Property accessors
@@ -64,15 +61,6 @@ public class Userrelationshipinfo implements java.io.Serializable {
 
 	public void setUriUserb(Integer uriUserb) {
 		this.uriUserb = uriUserb;
-	}
-
-	@Column(name = "uri_type", nullable = false)
-	public Integer getUriType() {
-		return this.uriType;
-	}
-
-	public void setUriType(Integer uriType) {
-		this.uriType = uriType;
 	}
 
 }

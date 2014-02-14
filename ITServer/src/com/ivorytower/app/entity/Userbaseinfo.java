@@ -5,8 +5,10 @@ import java.sql.Timestamp;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
@@ -27,7 +29,6 @@ public class Userbaseinfo implements java.io.Serializable {
 	private String ubiPwd;
 	private Integer ubiStatus;
 	private Timestamp ubiCreatetime;
-	private String ubiSession;
 	
 	private Userexpandinfo userExpand;
 
@@ -44,7 +45,6 @@ public class Userbaseinfo implements java.io.Serializable {
 		this.ubiPwd = ubiPwd;
 		this.ubiStatus = ubiStatus;
 		this.ubiCreatetime = ubiCreatetime;
-		this.ubiSession = ubiSession;
 	}
 
 	// Property accessors
@@ -94,15 +94,6 @@ public class Userbaseinfo implements java.io.Serializable {
 
 	public void setUbiCreatetime(Timestamp ubiCreatetime) {
 		this.ubiCreatetime = ubiCreatetime;
-	}
-
-	@Column(name = "ubi_session", nullable = false, length = 30)
-	public String getUbiSession() {
-		return this.ubiSession;
-	}
-
-	public void setUbiSession(String ubiSession) {
-		this.ubiSession = ubiSession;
 	}
 
 	@OneToOne(cascade = CascadeType.ALL)

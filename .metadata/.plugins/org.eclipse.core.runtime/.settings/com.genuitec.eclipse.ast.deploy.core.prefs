@@ -1,0 +1,14 @@
+#Fri Feb 14 15:09:36 GMT+08:00 2014
+tomcat7Server.ITServer.contextRoot=/ITServer
+tomcat7Server.ITServer.deploymentPath=/Applications/tomcat/webapps/ITServer
+tomcat7Server.ITServer.type=WebDeployment
+tomcat7Server.ITServer.shouldBackup=false
+tomcat7Server.ITServer.isExploded=true
+tomcat7Server.ITServer.deployIsOverProject=false
+tomcat7Server.ITServer.altContextRoot=
+tomcat7Server.ITServer.shouldOverwrite=false
+tomcat7Server.ITServer.isUptoDate=true
+tomcat7Server.ITServer.IEARProjectName=
+eclipse.preferences.version=1
+tomcat7Server.ITServer.isDeployed=true
+tomcat7Server.ITServer.noFileCopy=false

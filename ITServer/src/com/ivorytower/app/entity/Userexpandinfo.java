@@ -29,7 +29,9 @@ public class Userexpandinfo implements java.io.Serializable {
 	private String ueiMood;
 	private Integer ueiVisible;
 	private Timestamp ueiCreatetime;
-	private Integer ueiStatus;
+	private Integer ueiOnline;
+	private String ueiSession;
+	
 
 	// Constructors
 
@@ -41,7 +43,7 @@ public class Userexpandinfo implements java.io.Serializable {
 	public Userexpandinfo(String ueiNickname, Integer ueiSex, Integer ueiAge,
 			Integer ueiScore, Integer ueiCoin, Integer ueiLevel,
 			String ueiTelephone, String ueiAvatar, String ueiMood,
-			Integer ueiVisible, Timestamp ueiCreatetime, Integer ueiStatus) {
+			Integer ueiVisible, Timestamp ueiCreatetime, Integer ueiOnline,String ueiSession) {
 		this.ueiNickname = ueiNickname;
 		this.ueiSex = ueiSex;
 		this.ueiAge = ueiAge;
@@ -53,7 +55,8 @@ public class Userexpandinfo implements java.io.Serializable {
 		this.ueiMood = ueiMood;
 		this.ueiVisible = ueiVisible;
 		this.ueiCreatetime = ueiCreatetime;
-		this.ueiStatus = ueiStatus;
+		this.ueiOnline = ueiOnline;
+		this.ueiSession = ueiSession;
 	}
 
 	// Property accessors
@@ -168,13 +171,21 @@ public class Userexpandinfo implements java.io.Serializable {
 		this.ueiCreatetime = ueiCreatetime;
 	}
 
-	@Column(name = "uei_status", nullable = false)
-	public Integer getUeiStatus() {
-		return this.ueiStatus;
+	@Column(name = "uei_online", nullable = false)
+	public Integer getUbiOnline() {
+		return ueiOnline;
 	}
 
-	public void setUeiStatus(Integer ueiStatus) {
-		this.ueiStatus = ueiStatus;
+	public void setUbiOnline(Integer ueiOnline) {
+		this.ueiOnline = ueiOnline;
+	}
+	@Column(name = "uei_session", nullable = false)
+	public String getUbiSession() {
+		return ueiSession;
+	}
+
+	public void setUbiSession(String ueiSession) {
+		this.ueiSession = ueiSession;
 	}
 
 }
