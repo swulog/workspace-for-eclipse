@@ -1,7 +1,7 @@
-#Thu Feb 13 12:55:49 GMT+08:00 2014
+#Fri Feb 14 09:46:34 GMT+08:00 2014
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
-content_assist_disabled_computers=org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000
 org.eclipse.jdt.ui.text.templates_migrated=true
 useAnnotationsPrefPage=true
 eclipse.preferences.version=1

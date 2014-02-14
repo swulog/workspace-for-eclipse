@@ -1,4 +1,4 @@
-#Thu Feb 13 11:18:54 GMT+08:00 2014
+#Fri Feb 14 09:21:38 GMT+08:00 2014
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
 org.eclipse.jdt.core.compiler.compliance=1.6
 org.eclipse.jdt.core.classpathVariable.MYECLIPSE_STRUTS2_DATA_HOME=/Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/95/1/.cp/data
@@ -12,3 +12,4 @@ org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.source=1.6
 org.eclipse.jdt.core.classpathVariable.JRE_SRC=
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.timeoutForParameterNameFromAttachedJavadoc=50

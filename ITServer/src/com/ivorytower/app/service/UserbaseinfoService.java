@@ -9,4 +9,5 @@ public interface UserbaseinfoService extends BaseService{
 	public void addUserbaseinfo(Userbaseinfo userbaseinfo);
 	public Userbaseinfo getUserbaseinfoById(int id);
 	public List<Userbaseinfo> findUserbaseinfoByName(String name);
+	
 }

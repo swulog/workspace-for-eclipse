@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ivorytower.app.entity.Userbaseinfo;
+import com.ivorytower.app.entity.Userexpandinfo;
 import com.ivorytower.app.service.UserbaseinfoService;
 import com.ivorytower.comm.Result;
 
@@ -35,16 +36,23 @@ public class TestAction {
 		
 		Result result=new Result();
 		try{
-			Userbaseinfo userbaseinfo=new Userbaseinfo();
-			userbaseinfo.setUbiUsername("龙超");
-			Timestamp ts = new Timestamp(Calendar.getInstance().getTime().getTime());
-			userbaseinfo.setUbiCreatetime(ts);
-			userbaseinfo.setUbiPwd("dfgdf");
-			userbaseinfo.setUbiSession("dfgdf");
-			userbaseinfo.setUbiStatus(2);
-			this.userbaseinfoService.addUserbaseinfo(userbaseinfo);
+//			Userbaseinfo userbaseinfo=new Userbaseinfo();
+//			userbaseinfo.setUbiUsername("龙超");
+//			Timestamp ts = new Timestamp(Calendar.getInstance().getTime().getTime());
+//			userbaseinfo.setUbiCreatetime(ts);
+//			userbaseinfo.setUbiPwd("dfgdf");
+//			userbaseinfo.setUbiSession("dfgdf");
+//			userbaseinfo.setUbiStatus(2);
+			//this.userbaseinfoService.addUserbaseinfo(userbaseinfo);
+			
+			
+			Userbaseinfo userbaseinfo = this.userbaseinfoService.getUserbaseinfoById(1);
+			result.getData().put("username", userbaseinfo.getUbiUsername());
 			result.setSuccess(true);
 			result.setMsg("测试成功");
+			
+			Userexpandinfo userexpandinfo = userbaseinfo.getUserExpand();
+			System.out.println(userexpandinfo.getUeiNickname());
 			return result;
 		}catch(Exception e){
 			e.printStackTrace();

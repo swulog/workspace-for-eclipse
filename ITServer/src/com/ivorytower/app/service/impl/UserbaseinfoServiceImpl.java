@@ -30,4 +30,5 @@ public class UserbaseinfoServiceImpl extends BaseServiceImpl implements Userbase
 		return (List<Userbaseinfo>)this.getBaseDao().findByHql(hql, name);
 	}
 
+
 }

@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.springframework.web.struts.ActionSupport"/>
 <fullyQualifiedTypeName name="com.university.utils.BaseUtils"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.HttpServletBean"/>
 </qualifiedTypeNameHistroy>
