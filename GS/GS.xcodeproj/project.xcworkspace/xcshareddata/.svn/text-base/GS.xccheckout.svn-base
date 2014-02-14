@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3120A719-7B28-4981-95A7-C265129C8BE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC7EE710-E164-4833-9626-E78652ABAB84</key>
+		<string>svn://119.254.69.159/gsw_ios/GS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC7EE710-E164-4833-9626-E78652ABAB84</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>DC7EE710-E164-4833-9626-E78652ABAB84</key>
+		<string>svn://119.254.69.159/gsw_ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://119.254.69.159/gsw_ios/GS/GS.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC7EE710-E164-4833-9626-E78652ABAB84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC7EE710-E164-4833-9626-E78652ABAB84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

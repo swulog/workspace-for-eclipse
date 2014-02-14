@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'UnArc3rdParty' target in the 'UnArc3rdParty' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

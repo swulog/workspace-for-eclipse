@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GKCommentReleaseCtrller">
+            <connections>
+                <outlet property="badBtn" destination="Ecl-Kr-RO8" id="Idm-et-rWd"/>
+                <outlet property="commentBtn0" destination="fRm-sC-duB" id="w6X-sf-voc"/>
+                <outlet property="commentBtn1" destination="3uI-jv-3Z3" id="9CE-11-tdk"/>
+                <outlet property="commentBtn2" destination="wTo-VG-Xjd" id="MwK-23-g6g"/>
+                <outlet property="contentView" destination="DeV-Rp-N5x" id="Rhp-YN-YWS"/>
+                <outlet property="goodBtn" destination="nH0-N0-KCO" id="W3Y-6D-a4n"/>
+                <outlet property="label" destination="cNJ-Ve-YD1" id="SZM-B0-63m"/>
+                <outlet property="presetCommentView" destination="TQh-kY-4Js" id="J33-Pu-4JO"/>
+                <outlet property="qqFriendBtn" destination="uaP-GQ-nWB" id="M9Y-UH-lgI"/>
+                <outlet property="qqWBBtn" destination="0OK-b7-SON" id="xl5-FN-2Bv"/>
+                <outlet property="qqZoneBtn" destination="sWA-JX-CJY" id="vfi-W4-j5P"/>
+                <outlet property="scrollContentView" destination="fWM-1s-MKo" id="8hZ-65-J4j"/>
+                <outlet property="sinaBtn" destination="iGK-v3-SMB" id="TYa-S4-vRO"/>
+                <outlet property="subjectTextView" destination="9K5-DH-VdY" id="Woh-uU-12e"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="fWM-1s-MKo" customClass="WSScrollContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </view>
+                <view contentMode="scaleToFill" id="DeV-Rp-N5x">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="cWD-Gg-KNe">
+                            <rect key="frame" x="0.0" y="10" width="320" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nH0-N0-KCO" customClass="WSLargeButton">
+                                    <rect key="frame" x="15" y="0.0" width="145" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <state key="normal" title="好评">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="commentTagClick:" destination="-1" eventType="touchUpInside" id="TBe-Le-Icx"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ecl-Kr-RO8" customClass="WSLargeButton">
+                                    <rect key="frame" x="160" y="0.0" width="145" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <state key="normal" title="差评">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="commentTagClick:" destination="-1" eventType="touchUpInside" id="rrY-Aa-IEG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </view>
+                        <view contentMode="scaleToFill" id="TQh-kY-4Js">
+                            <rect key="frame" x="15" y="60" width="290" height="90"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fRm-sC-duB" customClass="WSLargeButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="145" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <state key="normal" title="优惠很给力，好评！">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="presetCommentClick:" destination="-1" eventType="touchUpInside" id="pOV-XH-9jU"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3uI-jv-3Z3" customClass="WSLargeButton">
+                                    <rect key="frame" x="162" y="0.0" width="128" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <state key="normal" title="服务不错，满意！">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="presetCommentClick:" destination="-1" eventType="touchUpInside" id="HQq-fE-gYh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wTo-VG-Xjd" customClass="WSLargeButton">
+                                    <rect key="frame" x="0.0" y="50" width="241" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <state key="normal" title="用二维码就能打折了，很划算很方便！">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="presetCommentClick:" destination="-1" eventType="touchUpInside" id="Q8J-tU-QPE"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </view>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9K5-DH-VdY">
+                            <rect key="frame" x="15" y="160" width="290" height="279"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="TU0-aM-dG6"/>
+                            </connections>
+                        </textView>
+                        <view contentMode="scaleToFill" id="4Re-tp-paJ">
+                            <rect key="frame" x="0.0" y="448" width="320" height="47"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="同步至" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cNJ-Ve-YD1">
+                                    <rect key="frame" x="59" y="13" width="42" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iGK-v3-SMB" customClass="WSLargeButton">
+                                    <rect key="frame" x="113" y="3" width="42" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" image="CMM_SinaEnabled"/>
+                                    <connections>
+                                        <action selector="snsClick:" destination="-1" eventType="touchUpInside" id="RAb-Mj-oBX"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0OK-b7-SON" customClass="WSLargeButton">
+                                    <rect key="frame" x="163" y="3" width="42" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" image="CMM_QQWeboEnabled"/>
+                                    <connections>
+                                        <action selector="snsClick:" destination="-1" eventType="touchUpInside" id="KAZ-9v-XHL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sWA-JX-CJY" customClass="WSLargeButton">
+                                    <rect key="frame" x="213" y="3" width="42" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" image="CMM_QQEnabled"/>
+                                    <connections>
+                                        <action selector="snsClick:" destination="-1" eventType="touchUpInside" id="Sie-Zp-4Ts"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uaP-GQ-nWB" customClass="WSLargeButton">
+                                    <rect key="frame" x="263" y="3" width="42" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" image="CMM_FriendEnabled"/>
+                                    <connections>
+                                        <action selector="snsClick:" destination="-1" eventType="touchUpInside" id="ny4-Vk-dNw"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                        </view>
+                    </subviews>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CMM_FriendEnabled" width="16" height="16"/>
+        <image name="CMM_QQEnabled" width="16" height="16"/>
+        <image name="CMM_QQWeboEnabled" width="16" height="16"/>
+        <image name="CMM_SinaEnabled" width="16" height="16"/>
+    </resources>
+</document>

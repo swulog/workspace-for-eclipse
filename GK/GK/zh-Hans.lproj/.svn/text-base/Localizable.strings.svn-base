@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  GK
+
+  Created by W.S. on 13-8-19.
+  Copyright (c) 2013年 JinSuanPan. All rights reserved.
+*/
+"Release to load more..."   =   "释放开始加载...";
+"Release to refresh..."     =   "释放开始刷新...";
+"Pull down to refresh..."   =   "下拉可以刷新";
+"Pull up to load more..."   =   "上拉加载更多";
+"Loading..."                =   "正在加载...";
+"Last Updated: %@"          =   "最后更新时间:%@";

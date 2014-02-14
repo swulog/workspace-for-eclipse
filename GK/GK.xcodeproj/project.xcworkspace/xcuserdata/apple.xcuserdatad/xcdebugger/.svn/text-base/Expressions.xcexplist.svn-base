@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[OwnerFavouriteCtrller tableView:cellForRowAtIndexPath:]:OwnerFavouriteCtrller.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.listArray[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[StoreSort getList:value:deleteOnceinvalid:]:GKStoreSortListService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GKHeadPageViewController viewDidLoad]:GKHeadPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cities">
+            </PersistentString>
+            <PersistentString
+               value = "self.tab.viewControllers">
+            </PersistentString>
+            <PersistentString
+               value = "self.cityId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[GKObject getAll]:GKObject.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GKCanYinController getSortName:]:GKCanYinController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__65-[GlobalObject locationManager:didUpdateToLocation:fromLocation:]_block_invoke:GlobalObject.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.locationBlock">
+            </PersistentString>
+            <PersistentString
+               value = "self.location">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GKTabFrameController tabBar:didSelectItem:]:GKTabFrameController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tab.viewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GKObject save2DBWtihConstraints:]:GKObject.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[GKLogonService getCityLIist:fail:]:GKLogonService.m">
+      </ContextState>
+      <ContextState
+         contextName = "__36+[GKLogonService getCityLIist:fail:]_block_invoke:GKLogonService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GKStoreInfomationController observeValueForKeyPath:ofObject:change:context:]:GKStoreInfomationController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalObject shareInstance]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[GKCanYinController cityUpdated]_block_invoke:GKCanYinController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__38-[GKHeadPageViewController getAdvInfo]_block_invoke147:GKHeadPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cityId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GKHeadPageViewController cellSelected:]:GKHeadPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cityId">
+            </PersistentString>
+            <PersistentString
+               value = "self.cities">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[GKCanYinController viewDidLoad]_block_invoke:GKCanYinController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.sorts">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
