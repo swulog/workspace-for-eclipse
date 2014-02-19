@@ -1,0 +1,104 @@
+package com.ivorytower.app.dto;
+
+import java.sql.Timestamp;
+
+public class QryPostsListDto {
+	
+	//for request
+	private int postTypeId;
+	private int pageNo;
+	private int pageSize;
+	
+	public int getPostTypeId() {
+		return postTypeId;
+	}
+	public void setPostTypeId(int postTypeId) {
+		this.postTypeId = postTypeId;
+	}
+	public int getPageNo() {
+		return pageNo;
+	}
+	public void setPageNo(int pageNo) {
+		this.pageNo = pageNo;
+	}
+	public int getPageSize() {
+		return pageSize;
+	}
+	public void setPageSize(int pageSize) {
+		this.pageSize = pageSize;
+	}
+
+	//for query result
+	private Integer pliId;
+	private Integer pliPtiid;
+	private String pliTitle;
+	private String pliContent;
+	private Integer pliUserid;
+	private Integer pliIstop;
+	private Integer pliReplynum;
+	private Timestamp pliCreatetime;
+	private Integer pliStatus;
+	private Integer pliReportnum;
+	
+
+	public Integer getPliId() {
+		return pliId;
+	}
+	public void setPliId(Integer pliId) {
+		this.pliId = pliId;
+	}
+	public Integer getPliPtiid() {
+		return pliPtiid;
+	}
+	public void setPliPtiid(Integer pliPtiid) {
+		this.pliPtiid = pliPtiid;
+	}
+	public String getPliTitle() {
+		return pliTitle;
+	}
+	public void setPliTitle(String pliTitle) {
+		this.pliTitle = pliTitle;
+	}
+	public String getPliContent() {
+		return pliContent;
+	}
+	public void setPliContent(String pliContent) {
+		this.pliContent = pliContent;
+	}
+	public Integer getPliUserid() {
+		return pliUserid;
+	}
+	public void setPliUserid(Integer pliUserid) {
+		this.pliUserid = pliUserid;
+	}
+	public Integer getPliIstop() {
+		return pliIstop;
+	}
+	public void setPliIstop(Integer pliIstop) {
+		this.pliIstop = pliIstop;
+	}
+	public Integer getPliReplynum() {
+		return pliReplynum;
+	}
+	public void setPliReplynum(Integer pliReplynum) {
+		this.pliReplynum = pliReplynum;
+	}
+	public Timestamp getPliCreatetime() {
+		return pliCreatetime;
+	}
+	public void setPliCreatetime(Timestamp pliCreatetime) {
+		this.pliCreatetime = pliCreatetime;
+	}
+	public Integer getPliStatus() {
+		return pliStatus;
+	}
+	public void setPliStatus(Integer pliStatus) {
+		this.pliStatus = pliStatus;
+	}
+	public Integer getPliReportnum() {
+		return pliReportnum;
+	}
+	public void setPliReportnum(Integer pliReportnum) {
+		this.pliReportnum = pliReportnum;
+	}
+}

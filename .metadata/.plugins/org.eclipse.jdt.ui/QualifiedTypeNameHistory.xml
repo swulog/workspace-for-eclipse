@@ -7,4 +7,8 @@
 <fullyQualifiedTypeName name="org.springframework.web.servlet.HttpServletBean"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.ivorytower.app.entity.Postlistinfo"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.service.impl.PostServiceImpl"/>
+<fullyQualifiedTypeName name="com.ivorytower.comm.Constants"/>
+<fullyQualifiedTypeName name="com.ivorytower.comm.Result"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPostsListDto"/>
 </qualifiedTypeNameHistroy>

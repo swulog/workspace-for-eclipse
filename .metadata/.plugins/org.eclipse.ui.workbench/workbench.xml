@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="83" version="2.0">
+<workbench progressCount="48" version="2.0">
 <workbenchAdvisor/>
-<window height="970" width="1920" x="208" y="22">
+<window height="982" width="1920" x="215" y="39">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -32,8 +32,8 @@
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.struts2.editor" itemType="typePlaceholder" x="316" y="22"/>
 <coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typePlaceholder" x="32" y="22"/>
-<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -54,55 +54,53 @@
 <part id="8"/>
 <part id="9"/>
 <part id="10"/>
-<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/WebContent/WEB-INF/web.xml" title="web.xml" tooltip="ITServer/WebContent/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/WebContent/WEB-INF/web.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PostServiceImpl.java" partName="PostServiceImpl.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java" title="PostServiceImpl.java" tooltip="ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="1249" selectionTopPixel="63"/>
 </editor>
-<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-mvc.xml" partName="applicationContext-mvc.xml" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml" title="applicationContext-mvc.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-mvc.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarServiceImpl.java" partName="CarServiceImpl.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/terminal/service/impl/CarServiceImpl.java" title="CarServiceImpl.java" tooltip="enho/src/cn/com/enho/terminal/service/impl/CarServiceImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/terminal/service/impl/CarServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="16000" selectionTopPixel="5686"/>
 </editor>
-<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-hib.xml" partName="applicationContext-hib.xml" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/WebContent/WEB-INF/applicationContext-hib.xml" title="applicationContext-hib.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-hib.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/WebContent/WEB-INF/applicationContext-hib.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryPostsListAction.java" partName="QryPostsListAction.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/action/QryPostsListAction.java" title="QryPostsListAction.java" tooltip="ITServer/src/com/ivorytower/app/action/QryPostsListAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/action/QryPostsListAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1099" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userbaseinfo.java" partName="Userbaseinfo.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java" title="Userbaseinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1335" selectionTopPixel="412"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" partName="User.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/terminal/entity/User.java" title="User.java" tooltip="enho/src/cn/com/enho/terminal/entity/User.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/terminal/entity/User.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="2157" selectionTopPixel="1521"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegistAction.java" partName="RegistAction.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/terminal/action/RegistAction.java" title="RegistAction.java" tooltip="enho/src/cn/com/enho/terminal/action/RegistAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/terminal/action/RegistAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1272" selectionTopPixel="289"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserService.java" partName="UserService.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/terminal/service/UserService.java" title="UserService.java" tooltip="enho/src/cn/com/enho/terminal/service/UserService.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/terminal/service/UserService.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="990" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserServiceImpl.java" partName="UserServiceImpl.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/terminal/service/impl/UserServiceImpl.java" title="UserServiceImpl.java" tooltip="enho/src/cn/com/enho/terminal/service/impl/UserServiceImpl.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/terminal/service/impl/UserServiceImpl.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5488" selectionTopPixel="72"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UUIDUtil.java" partName="UUIDUtil.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/comm/util/UUIDUtil.java" title="UUIDUtil.java" tooltip="enho/src/cn/com/enho/comm/util/UUIDUtil.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/comm/util/UUIDUtil.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="150" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PostService.java" partName="PostService.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/service/PostService.java" title="PostService.java" tooltip="ITServer/src/com/ivorytower/app/service/PostService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/service/PostService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="532" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userexpandinfo.java" partName="Userexpandinfo.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java" title="Userexpandinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4207" selectionTopPixel="2319"/>
+<editorState selectionHorizontalPixel="0" selectionLength="25" selectionOffset="700" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userrelationshipinfo.java" partName="Userrelationshipinfo.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java" title="Userrelationshipinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1436" selectionTopPixel="459"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusServiceImpl.java" partName="BusServiceImpl.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/terminal/service/impl/BusServiceImpl.java" title="BusServiceImpl.java" tooltip="enho/src/cn/com/enho/terminal/service/impl/BusServiceImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/terminal/service/impl/BusServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="22478" selectionTopPixel="8340"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAction.java" partName="TestAction.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/action/TestAction.java" title="TestAction.java" tooltip="ITServer/src/com/ivorytower/app/action/TestAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2691" selectionTopPixel="561"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommServiceImpl.java" partName="CommServiceImpl.java" path="/Users/lc/Documents/workspace-for-eclipse/enho/src/cn/com/enho/terminal/service/impl/CommServiceImpl.java" title="CommServiceImpl.java" tooltip="enho/src/cn/com/enho/terminal/service/impl/CommServiceImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/enho/src/cn/com/enho/terminal/service/impl/CommServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="1373" selectionTopPixel="134"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryPostsListDto.java" partName="QryPostsListDto.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/dto/QryPostsListDto.java" title="QryPostsListDto.java" tooltip="ITServer/src/com/ivorytower/app/dto/QryPostsListDto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/dto/QryPostsListDto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2927" selectionTopPixel="950"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postdetailinfo.java" partName="Postdetailinfo.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java" title="Postdetailinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1131" selectionTopPixel="292"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postlistinfo.java" partName="Postlistinfo.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java" title="Postlistinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postlistinfo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="281" selectionOffset="481" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userbaseinfo.java" partName="Userbaseinfo.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java" title="Userbaseinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -153,7 +151,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (100 of 306 items)"/>
+<category IMemento.internal.id="Warnings (6 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -203,7 +201,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -322,7 +320,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.27920377" ratioLeft="533" ratioRight="1376" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.15924568" ratioLeft="304" ratioRight="1605" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1d06aa01" ratio="0.7490775" ratioLeft="609" ratioRight="204" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -343,7 +341,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.5668934" ratioLeft="500" ratioRight="382" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.58277404" ratioLeft="521" ratioRight="373" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -447,30 +445,21 @@
 <view id="com.genuitec.eclipse.sqlexplorer.views.TableInfoView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="cvslocation">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="cvslocation">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="cvslocation">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="cvslocation">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="478" ratioRight="1434" relationship="2" relative="cvslocation"/>
-<info folder="true" part="bottom" ratio="0.49943504" ratioLeft="442" ratioRight="443" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView" label="SQL Results"/>
+<info folder="true" part="bottom" ratio="0.49943504" ratioLeft="442" ratioRight="443" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView" label="SQL Results"/>
 <page content="com.genuitec.eclipse.sqlexplorer.views.SQLHistoryView" label="SQL History"/>
 <page content="com.genuitec.eclipse.sqlexplorer.views.ConnectionInfo" label="DB Connection Info"/>
 <page content="com.genuitec.eclipse.sqlexplorer.views.TableInfoView" label="Table/Object Info"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -478,11 +467,8 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topLeft" ratio="0.4" ratioLeft="354" ratioRight="531" relationship="4" relative="cvslocation">
-<folder activePageID="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" appearance="2" expanded="2">
-<page content="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" label="DB Browser"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="topLeft" ratio="0.4" ratioLeft="354" ratioRight="531" relationship="4" relative="cvslocation">&#x0A;<folder activePageID="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" appearance="2" expanded="2">&#x0A;<page content="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" label="DB Browser"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -627,7 +613,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
@@ -647,169 +633,172 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/service/UserbaseinfoService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/service/impl/UserServiceImpl.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/service/impl/UserbaseinfoServiceImpl.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/dao/BaseDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/dao/impl/BaseDaoImpl.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ITServer/WebContent/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/ITServer/WebContent/WEB-INF/applicationContext-hib.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/entity/User.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=ITServer/\/Users\/lc\/Documents\/workspace-for-eclipse\/ITServer\/WebContent\/WEB-INF\/lib\/hibernate-jpa-2.0-api-1.0.1.Final.jar&lt;javax.persistence(OneToMany.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/action/RegistAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/service/UserService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/service/impl/UserServiceImpl.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/comm/util/UUIDUtil.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/deprecated/Userbaseinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/deprecated/Postdetailinfo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/service/impl/CarServiceImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/QryPostsListAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/service/PostService.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/service/impl/BusServiceImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/service/impl/CommServiceImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/dao/impl/CarDaoImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/dao/impl/FeedBackDaoImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/dao/impl/GoodsDaoImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/enho/src/cn/com/enho/terminal/dao/impl/ImageDaoImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/dto/QryPostsListDto.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=ITServer/\/Users\/lc\/Documents\/workspace-for-eclipse\/ITServer\/WebContent\/WEB-INF\/lib\/hibernate-core-4.2.2.Final.jar&lt;org.hibernate.hql.internal.ast.tree(FromElementFactory.class"/>
 </editors>
-<item historyLabel="TestAction.java" index="0">
-<position info="not_deleted" x="2707" y="0"/>
+<item historyLabel="CarServiceImpl.java" index="1">
+<position info="not_deleted" x="7318" y="116"/>
 </item>
-<item historyLabel="UserServiceImpl.java" index="2">
-<position info="not_deleted" x="18220" y="16"/>
-</item>
-<item historyLabel="TestAction.java" index="0">
-<position info="not_deleted" x="2707" y="0"/>
-</item>
-<item historyLabel="TestAction.java" index="0">
-<position info="not_deleted" x="1817" y="0"/>
-</item>
-<item historyLabel="UserbaseinfoService.java" index="1">
-<position info="not_deleted" x="428" y="20"/>
-</item>
-<item historyLabel="UserbaseinfoServiceImpl.java" index="3">
-<position info="not_deleted" x="1096" y="20"/>
-</item>
-<item historyLabel="UserbaseinfoServiceImpl.java" index="3">
-<position info="not_deleted" x="1128" y="0"/>
-</item>
-<item historyLabel="UserbaseinfoServiceImpl.java" index="3">
-<position info="not_deleted" x="1169" y="0"/>
-</item>
-<item historyLabel="UserbaseinfoServiceImpl.java" index="3">
-<position info="not_deleted" x="1185" y="0"/>
-</item>
-<item historyLabel="UserbaseinfoServiceImpl.java" index="3">
-<position info="not_deleted" x="1169" y="0"/>
-</item>
-<item historyLabel="UserbaseinfoServiceImpl.java" index="3">
-<position info="not_deleted" x="1236" y="0"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="430" y="9"/>
-</item>
-<item historyLabel="BaseDaoImpl.java" index="5">
-<position info="not_deleted" x="1233" y="9"/>
-</item>
-<item historyLabel="UserServiceImpl.java" index="2">
-<position info="not_deleted" x="18220" y="16"/>
-</item>
-<item historyLabel="web.xml" index="6"/>
-<item historyLabel="applicationContext-mvc.xml" index="7"/>
-<item historyLabel="applicationContext-hib.xml" index="8"/>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="2653" y="6"/>
-</item>
-<item historyLabel="User.java" index="10">
-<position info="not_deleted" x="4969" y="8"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="2653" y="6"/>
-</item>
-<item historyLabel="User.java" index="10">
-<position info="not_deleted" x="5168" y="36"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="2653" y="6"/>
-</item>
-<item historyLabel="applicationContext-hib.xml" index="8"/>
-<item historyLabel="User.java" index="10">
-<position info="not_deleted" x="4937" y="83"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="9">
+<item historyLabel="PostServiceImpl.java" index="0">
 <position/>
 </item>
-<item historyLabel="OneToMany.class" index="11">
+<item historyLabel="CarServiceImpl.java" index="1">
+<position info="not_deleted" x="15295" y="0"/>
+</item>
+<item historyLabel="BusServiceImpl.java" index="5">
+<position info="not_deleted" x="22478" y="0"/>
+</item>
+<item historyLabel="CommServiceImpl.java" index="6">
+<position info="not_deleted" x="1373" y="31"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="CarServiceImpl.java" index="1">
+<position info="not_deleted" x="15255" y="24"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1144" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1189" y="0"/>
+</item>
+<item historyLabel="CarServiceImpl.java" index="1">
+<position info="not_deleted" x="16007" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1285" y="0"/>
+</item>
+<item historyLabel="CarServiceImpl.java" index="1">
+<position info="not_deleted" x="16000" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1270" y="0"/>
+</item>
+<item historyLabel="CarServiceImpl.java" index="1">
+<position info="not_deleted" x="16000" y="0"/>
+</item>
+<item historyLabel="CarDaoImpl.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="2570" y="0"/>
-</item>
-<item historyLabel="User.java" index="10">
-<position info="not_deleted" x="2157" y="24"/>
-</item>
-<item historyLabel="RegistAction.java" index="12">
-<position info="not_deleted" x="1272" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="13">
-<position info="not_deleted" x="990" y="0"/>
-</item>
-<item historyLabel="UserServiceImpl.java" index="14">
-<position info="not_deleted" x="4569" y="0"/>
-</item>
-<item historyLabel="UUIDUtil.java" index="15">
-<position info="not_deleted" x="150" y="0"/>
-</item>
-<item historyLabel="UserServiceImpl.java" index="14">
-<position info="not_deleted" x="4569" y="0"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="16">
-<position info="not_deleted" x="2570" y="0"/>
-</item>
-<item historyLabel="Postdetailinfo.java" index="17">
-<position info="not_deleted" x="424" y="14"/>
-</item>
-<item historyLabel="UserServiceImpl.java" index="14">
-<position info="not_deleted" x="5488" y="0"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="814" y="0"/>
-</item>
-<item historyLabel="Userexpandinfo.java" index="18">
-<position info="not_deleted" x="841" y="0"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="850" y="0"/>
-</item>
-<item historyLabel="Userexpandinfo.java" index="18">
-<position info="not_deleted" x="869" y="0"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="2337" y="0"/>
-</item>
-<item historyLabel="Userexpandinfo.java" index="18">
-<position info="not_deleted" x="869" y="0"/>
-</item>
-<item historyLabel="Userbaseinfo.java" index="9">
-<position info="not_deleted" x="1335" y="0"/>
-</item>
-<item historyLabel="Userexpandinfo.java" index="18">
-<position info="not_deleted" x="869" y="0"/>
-</item>
-<item historyLabel="Userexpandinfo.java" index="18">
-<position info="not_deleted" x="4207" y="0"/>
-</item>
-<item historyLabel="Userrelationshipinfo.java" index="19">
+<item historyLabel="FeedBackDaoImpl.java" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Userrelationshipinfo.java" index="19">
-<position info="not_deleted" x="1436" y="0"/>
-</item>
-<item historyLabel="TestAction.java" index="20">
+<item historyLabel="GoodsDaoImpl.java" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TestAction.java" index="20">
-<position info="not_deleted" x="2688" y="0"/>
+<item historyLabel="ImageDaoImpl.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="TestAction.java" index="20">
-<position info="not_deleted" x="2719" y="0"/>
+<item historyLabel="GoodsDaoImpl.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FeedBackDaoImpl.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CarDaoImpl.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CarServiceImpl.java" index="1">
+<position info="not_deleted" x="16000" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1270" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1718" y="0"/>
+</item>
+<item historyLabel="PostService.java" index="3">
+<position info="not_deleted" x="532" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="685" y="0"/>
+</item>
+<item historyLabel="QryPostsListAction.java" index="2">
+<position info="not_deleted" x="1099" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="685" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1189" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1627" y="0"/>
+</item>
+<item historyLabel="QryPostsListAction.java" index="2">
+<position info="not_deleted" x="1099" y="0"/>
+</item>
+<item historyLabel="QryPostsListDto.java" index="11">
+<position info="not_deleted" x="3009" y="0"/>
+</item>
+<item historyLabel="Postdetailinfo.java" index="12">
+<position info="not_deleted" x="487" y="195"/>
+</item>
+<item historyLabel="QryPostsListDto.java" index="11">
+<position info="not_deleted" x="3009" y="0"/>
+</item>
+<item historyLabel="Postdetailinfo.java" index="12">
+<position info="not_deleted" x="1131" y="0"/>
+</item>
+<item historyLabel="QryPostsListDto.java" index="11">
+<position/>
+</item>
+<item historyLabel="Postlistinfo.java" index="13">
+<position info="not_deleted" x="481" y="281"/>
+</item>
+<item historyLabel="QryPostsListDto.java" index="11">
+<position info="not_deleted" x="851" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="848" y="0"/>
+</item>
+<item historyLabel="Userbaseinfo.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Userexpandinfo.java" index="4">
+<position info="not_deleted" x="511" y="77"/>
+</item>
+<item historyLabel="QryPostsListDto.java" index="11">
+<position info="not_deleted" x="851" y="0"/>
+</item>
+<item historyLabel="Userexpandinfo.java" index="4">
+<position info="not_deleted" x="643" y="25"/>
+</item>
+<item historyLabel="QryPostsListDto.java" index="11">
+<position info="not_deleted" x="984" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="895" y="10"/>
+</item>
+<item historyLabel="Userexpandinfo.java" index="4">
+<position info="not_deleted" x="700" y="25"/>
+</item>
+<item historyLabel="QryPostsListDto.java" index="11">
+<position info="not_deleted" x="2927" y="0"/>
+</item>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="FromElementFactory.class" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="1057" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -837,50 +826,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAction.java" tooltip="ITServer/src/com/ivorytower/app/action/TestAction.java">
-<persistable path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userrelationshipinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userexpandinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postdetailinfo.java" tooltip="ITServer/src/com/ivorytower/deprecated/Postdetailinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/deprecated/Postdetailinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UUIDUtil.java" tooltip="enho/src/cn/com/enho/comm/util/UUIDUtil.java">
-<persistable path="/enho/src/cn/com/enho/comm/util/UUIDUtil.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserServiceImpl.java" tooltip="enho/src/cn/com/enho/terminal/service/impl/UserServiceImpl.java">
-<persistable path="/enho/src/cn/com/enho/terminal/service/impl/UserServiceImpl.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserService.java" tooltip="enho/src/cn/com/enho/terminal/service/UserService.java">
-<persistable path="/enho/src/cn/com/enho/terminal/service/UserService.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegistAction.java" tooltip="enho/src/cn/com/enho/terminal/action/RegistAction.java">
-<persistable path="/enho/src/cn/com/enho/terminal/action/RegistAction.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="OneToMany.class" tooltip="javax.persistence.OneToMany">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=ITServer/\/Users\/lc\/Documents\/workspace-for-eclipse\/ITServer\/WebContent\/WEB-INF\/lib\/hibernate-jpa-2.0-api-1.0.1.Final.jar&lt;javax.persistence(OneToMany.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="enho/src/cn/com/enho/terminal/entity/User.java">
-<persistable path="/enho/src/cn/com/enho/terminal/entity/User.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FromElementFactory.class" tooltip="org.hibernate.hql.internal.ast.tree.FromElementFactory">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=ITServer/\/Users\/lc\/Documents\/workspace-for-eclipse\/ITServer\/WebContent\/WEB-INF\/lib\/hibernate-core-4.2.2.Final.jar&lt;org.hibernate.hql.internal.ast.tree(FromElementFactory.class"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userbaseinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java">
 <persistable path="/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-hib.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-hib.xml">
-<persistable path="/ITServer/WebContent/WEB-INF/applicationContext-hib.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postlistinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postlistinfo.java">
+<persistable path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-mvc.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-mvc.xml">
-<persistable path="/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postdetailinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java">
+<persistable path="/ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="ITServer/WebContent/WEB-INF/web.xml">
-<persistable path="/ITServer/WebContent/WEB-INF/web.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryPostsListDto.java" tooltip="ITServer/src/com/ivorytower/app/dto/QryPostsListDto.java">
+<persistable path="/ITServer/src/com/ivorytower/app/dto/QryPostsListDto.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryUserList4NearAction.java" tooltip="enho/src/cn/com/enho/terminal/action/QryUserList4NearAction.java">
-<persistable path="/enho/src/cn/com/enho/terminal/action/QryUserList4NearAction.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageDaoImpl.java" tooltip="enho/src/cn/com/enho/terminal/dao/impl/ImageDaoImpl.java">
+<persistable path="/enho/src/cn/com/enho/terminal/dao/impl/ImageDaoImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GoodsDaoImpl.java" tooltip="enho/src/cn/com/enho/terminal/dao/impl/GoodsDaoImpl.java">
+<persistable path="/enho/src/cn/com/enho/terminal/dao/impl/GoodsDaoImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FeedBackDaoImpl.java" tooltip="enho/src/cn/com/enho/terminal/dao/impl/FeedBackDaoImpl.java">
+<persistable path="/enho/src/cn/com/enho/terminal/dao/impl/FeedBackDaoImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarDaoImpl.java" tooltip="enho/src/cn/com/enho/terminal/dao/impl/CarDaoImpl.java">
+<persistable path="/enho/src/cn/com/enho/terminal/dao/impl/CarDaoImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommServiceImpl.java" tooltip="enho/src/cn/com/enho/terminal/service/impl/CommServiceImpl.java">
+<persistable path="/enho/src/cn/com/enho/terminal/service/impl/CommServiceImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusServiceImpl.java" tooltip="enho/src/cn/com/enho/terminal/service/impl/BusServiceImpl.java">
+<persistable path="/enho/src/cn/com/enho/terminal/service/impl/BusServiceImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userexpandinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java">
+<persistable path="/ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MgResult.java" tooltip="enho/src/cn/com/enho/comm/MgResult.java">
+<persistable path="/enho/src/cn/com/enho/comm/MgResult.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Page.java" tooltip="enho/src/cn/com/enho/comm/Page.java">
+<persistable path="/enho/src/cn/com/enho/comm/Page.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HttpRequest.java" tooltip="enho/src/cn/com/enho/comm/HttpRequest.java">
+<persistable path="/enho/src/cn/com/enho/comm/HttpRequest.java"/>
 </file>
 </mruList>
 </workbench>

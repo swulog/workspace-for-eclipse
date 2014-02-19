@@ -1,0 +1,28 @@
+package com.ivorytower.app.dto;
+
+public class QryPostsListDto {
+	
+	private int postTypeId;
+	private int pageNo;
+	private int pageSize;
+	
+	public int getPostTypeId() {
+		return postTypeId;
+	}
+	public void setPostTypeId(int postTypeId) {
+		this.postTypeId = postTypeId;
+	}
+	public int getPageNo() {
+		return pageNo;
+	}
+	public void setPageNo(int pageNo) {
+		this.pageNo = pageNo;
+	}
+	public int getPageSize() {
+		return pageSize;
+	}
+	public void setPageSize(int pageSize) {
+		this.pageSize = pageSize;
+	}
+
+}

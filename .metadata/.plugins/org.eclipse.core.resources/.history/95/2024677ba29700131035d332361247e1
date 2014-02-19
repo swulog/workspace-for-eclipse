@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.ivorytower.app.service;
+
+/**
+ * @author lc
+ *
+ */
+public interface PostService extends BaseService {
+
+}

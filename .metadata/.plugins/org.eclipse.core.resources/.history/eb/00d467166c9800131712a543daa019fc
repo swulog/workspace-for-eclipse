@@ -1,0 +1,22 @@
+package com.ivorytower.app.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.ivorytower.app.entity.Postlistinfo;
+import com.ivorytower.app.entity.Userbaseinfo;
+import com.ivorytower.app.service.PostService;
+
+@Service("postservice")
+public class PostServiceImpl extends BaseServiceImpl implements PostService {
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public void findPostListByTypeId(int typeId) {
+		// TODO Auto-generated method stub
+		String hql="from Postlistinfo t where t.pliPtiid=?";
+		this.getBaseDao().findByHql(hql, typeId);
+	}
+
+}

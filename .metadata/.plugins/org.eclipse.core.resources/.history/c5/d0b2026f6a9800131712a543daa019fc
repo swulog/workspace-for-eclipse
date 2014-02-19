@@ -1,0 +1,64 @@
+package com.ivorytower.app.action;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import cn.com.enho.comm.constants.Constants;
+import cn.com.enho.terminal.dto.QryCarListDto;
+
+import com.ivorytower.app.dto.QryPostsListDto;
+import com.ivorytower.app.service.PostService;
+import com.ivorytower.comm.Result;
+
+
+@Controller
+@RequestMapping("/comm")
+public class QryPostsListAction {
+	
+	static Logger logger = Logger.getLogger(TestAction.class.getName());
+	
+	@Autowired
+	private PostService postservice;
+
+	@RequestMapping(value="/test")
+	@ResponseBody 
+	public Result test(HttpServletRequest request,QryPostsListDto dto){
+		Result result=new Result();
+		
+		try {
+			validParam(dto,result);
+			if(result.getSuccess()){
+				String baseurl=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+ request.getContextPath();
+				qryCarListDto.setBaseurl(baseurl);
+				this.postservice.findPostListByTypeId(dto.getPostTypeId());
+			}else{//验证失败
+			}
+			return result;
+		} catch (Exception e) {
+			e.printStackTrace();
+			result.setSuccess(false);
+			result.setMsg("查询车源信息列表出现异常");
+			return result;
+		}
+		
+		return result;
+	}
+	
+	//表单验证
+		public void validParam(QryPostsListDto dto,Result result){
+//			if(qryCarListDto.getCurrentpage()==null || qryCarListDto.getCurrentpage()<=0){
+//				qryCarListDto.setCurrentpage(Constants.DEFAULT_CURRENTPAGE);
+//			}
+//			if(qryCarListDto.getPagesize()==null || qryCarListDto.getPagesize()<=0){
+//				qryCarListDto.setPagesize(Constants.DEFAULT_PAGESIZE);
+//			}
+			result.setSuccess(true);
+			result.setMsg("验证成功");
+			return;
+		}
+}

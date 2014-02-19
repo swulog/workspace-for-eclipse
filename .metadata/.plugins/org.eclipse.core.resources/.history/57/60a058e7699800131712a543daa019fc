@@ -1,0 +1,20 @@
+package com.ivorytower.app.action;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ivorytower.app.service.PostService;
+
+
+@Controller
+@RequestMapping("/comm")
+public class QryPostsListAction {
+	
+	static Logger logger = Logger.getLogger(TestAction.class.getName());
+	
+	@Autowired
+	private PostService postservice;
+
+}

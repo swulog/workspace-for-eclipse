@@ -1,0 +1,9 @@
+package com.ivorytower.app.dto;
+
+public class QryPostDetailDto {
+
+	//for request
+	private int postTypeId;
+	private int pageNo;
+	private int pageSize;
+}
