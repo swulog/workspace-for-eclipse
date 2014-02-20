@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="com.ivorytower.comm.Constants"/>
 <fullyQualifiedTypeName name="com.ivorytower.comm.Result"/>
 <fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPostsListDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPostDetailDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPostMoreDetailDto"/>
 </qualifiedTypeNameHistroy>

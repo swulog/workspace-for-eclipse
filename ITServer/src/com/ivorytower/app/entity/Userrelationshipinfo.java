@@ -15,7 +15,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Userrelationshipinfo implements java.io.Serializable {
 
 	// Fields
-
+	private static final long serialVersionUID = 1L;
 	private Integer uriId;
 	private Integer uriUsera;
 	private Integer uriUserb;

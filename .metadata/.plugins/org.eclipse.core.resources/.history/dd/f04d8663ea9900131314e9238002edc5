@@ -1,0 +1,10 @@
+package com.ivorytower.app.dto;
+
+public class RegisterDto {
+	
+	//for request
+	private int username;
+	private String userpwd;
+	
+
+}

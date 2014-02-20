@@ -1,0 +1,8 @@
+package com.ivorytower.app.dto;
+
+public class CollectPostDto {
+	
+	//for request
+		private int postid;
+
+}

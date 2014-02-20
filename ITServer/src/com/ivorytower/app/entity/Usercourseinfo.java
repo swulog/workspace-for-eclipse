@@ -16,7 +16,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Usercourseinfo implements java.io.Serializable {
 
 	// Fields
-
+	private static final long serialVersionUID = 1L;
 	private Integer uciId;
 	private Integer uciUserid;
 	private Timestamp uciCreatetme;

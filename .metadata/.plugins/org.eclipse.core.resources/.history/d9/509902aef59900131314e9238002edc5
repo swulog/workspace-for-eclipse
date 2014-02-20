@@ -1,0 +1,5 @@
+package com.ivorytower.app.service;
+
+public interface UserService extends BaseService {
+
+}

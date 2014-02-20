@@ -16,7 +16,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Postlistinfo implements java.io.Serializable {
 
 	// Fields
-
+	private static final long serialVersionUID = 1L;
 	private Integer pliId;
 	private Integer pliPtiid;
 	private String pliTitle;

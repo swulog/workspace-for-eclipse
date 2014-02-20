@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ivorytower.app.dto.QryPostDetailDto;
-import com.ivorytower.app.dto.QryPostsListDto;
 import com.ivorytower.app.service.PostService;
 import com.ivorytower.comm.Constants;
 import com.ivorytower.comm.Result;

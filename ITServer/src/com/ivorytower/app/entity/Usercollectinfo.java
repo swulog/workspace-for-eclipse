@@ -16,7 +16,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Usercollectinfo implements java.io.Serializable {
 
 	// Fields
-
+	private static final long serialVersionUID = 1L;
 	private Integer ucliId;
 	private Integer ucliUserid;
 	private String ucliPostids;

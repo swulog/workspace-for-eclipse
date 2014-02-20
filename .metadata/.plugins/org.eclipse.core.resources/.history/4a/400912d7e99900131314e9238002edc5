@@ -1,0 +1,10 @@
+package com.ivorytower.app.dto;
+
+public class DeletePostDto {
+	
+	//for request
+	private int userid;
+	private int postid;
+	
+
+}

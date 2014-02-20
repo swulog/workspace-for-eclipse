@@ -1,13 +1,6 @@
 package com.ivorytower.app.action;
 
-import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,18 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-
-import com.ivorytower.app.entity.Postlistinfo;
-import com.ivorytower.app.entity.Userbaseinfo;
-import com.ivorytower.app.entity.Userexpandinfo;
-import com.ivorytower.app.service.PostService;
-import com.ivorytower.app.service.impl.PostServiceImpl;
 import com.ivorytower.comm.Result;
-
-
-
-
-
 
 
 @Controller
@@ -38,7 +20,7 @@ public class TestAction {
 //	@Autowired
 //	private UserbaseinfoService userbaseinfoService;
 	@Autowired
-	private PostService postservice;
+	//private PostService postservice;
 	
 	@RequestMapping(value="/test")
 	@ResponseBody 

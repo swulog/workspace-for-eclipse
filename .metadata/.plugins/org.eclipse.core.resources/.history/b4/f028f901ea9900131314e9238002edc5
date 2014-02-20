@@ -1,0 +1,11 @@
+package com.ivorytower.app.dto;
+
+public class SearchPostDto {
+	
+	//for request
+	private int posttypeid;
+	private String keyword;
+	private int pageno;
+	private int pagesize;
+
+}

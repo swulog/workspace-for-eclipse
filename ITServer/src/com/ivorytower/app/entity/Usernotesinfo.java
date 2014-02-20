@@ -16,7 +16,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Usernotesinfo implements java.io.Serializable {
 
 	// Fields
-
+	private static final long serialVersionUID = 1L;
 	private Integer uniId;
 	private Integer uniUserid;
 	private String uniTitle;

@@ -16,7 +16,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Userexpandinfo implements java.io.Serializable {
 
 	// Fields
-
+	private static final long serialVersionUID = 1L;
 	private Integer ueiId;
 	private String ueiNickname;
 	private Integer ueiSex;

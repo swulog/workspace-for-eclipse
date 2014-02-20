@@ -1,0 +1,13 @@
+package com.ivorytower.app.dto;
+
+public class ModifyUserInfoDto {
+	
+	private int userid;
+	private String usernickname;
+	private String usermood;
+	private int usersex;
+	private int userage;
+	private String usertelephone;
+	private String userimage;
+
+}

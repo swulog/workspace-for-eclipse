@@ -17,12 +17,17 @@ public class Postdetailinfo implements java.io.Serializable {
 
 	// Fields
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer pdiId;
 	private Integer pdiPpostid;
 	private String pdiTitle;
 	private String pdiContent;
 	private String pdiPicture;
 	private Integer pdiUserid;
+	private Integer pdiLevel;
 	private Timestamp pdiCreatetime;
 
 	// Constructors
@@ -99,6 +104,15 @@ public class Postdetailinfo implements java.io.Serializable {
 
 	public void setPdiUserid(Integer pdiUserid) {
 		this.pdiUserid = pdiUserid;
+	}
+	
+	@Column(name = "pdi_level", nullable = false)
+	public Integer getPdiLevel() {
+		return pdiLevel;
+	}
+
+	public void setPdiLevel(Integer pdiLevel) {
+		this.pdiLevel = pdiLevel;
 	}
 
 	@Column(name = "pdi_createtime", nullable = false, length = 19)

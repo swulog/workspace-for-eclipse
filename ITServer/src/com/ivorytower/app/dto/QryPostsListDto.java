@@ -1,8 +1,5 @@
 package com.ivorytower.app.dto;
 
-import java.sql.Timestamp;
-
-import javax.persistence.Column;
 
 public class QryPostsListDto {
 	

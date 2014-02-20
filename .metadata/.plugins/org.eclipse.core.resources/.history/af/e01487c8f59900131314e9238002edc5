@@ -1,0 +1,12 @@
+package com.ivorytower.app.service;
+
+import com.ivorytower.app.dto.QryOnlineUsersListDto;
+import com.ivorytower.comm.Result;
+
+public interface UserService extends BaseService {
+	
+	public void queryOnlineUsersList(QryOnlineUsersListDto dto,Result result);
+	
+	public void register(QryOnlineUsersListDto dto,Result result);
+
+}

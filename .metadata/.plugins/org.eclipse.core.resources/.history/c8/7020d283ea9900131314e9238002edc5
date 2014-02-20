@@ -1,0 +1,9 @@
+package com.ivorytower.app.dto;
+
+public class LoginDto {
+	
+	//for request
+	private int username;
+	private String userpwd;
+
+}

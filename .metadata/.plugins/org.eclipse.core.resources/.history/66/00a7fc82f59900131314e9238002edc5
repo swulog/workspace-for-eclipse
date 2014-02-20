@@ -1,0 +1,7 @@
+package com.ivorytower.app.service.impl;
+
+import com.ivorytower.app.service.UserService;
+
+public class UserServiceImpl extends BaseServiceImpl implements UserService {
+
+}

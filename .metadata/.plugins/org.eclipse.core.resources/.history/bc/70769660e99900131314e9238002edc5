@@ -1,0 +1,13 @@
+package com.ivorytower.app.dto;
+
+public class AddNewPostDto {
+	
+	//for request
+	private int userid;
+	private String title;
+	private String content;
+	private String atlist;
+	private int posttype;
+	
+
+}

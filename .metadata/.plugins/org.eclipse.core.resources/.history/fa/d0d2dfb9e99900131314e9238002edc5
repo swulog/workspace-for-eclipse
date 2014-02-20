@@ -1,0 +1,11 @@
+package com.ivorytower.app.dto;
+
+public class ReplyPostDto {
+	
+	//for request
+	private int userid;
+	private int postid;
+	private String title;
+	private String atlist;
+
+}
