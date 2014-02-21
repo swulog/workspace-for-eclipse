@@ -9,8 +9,23 @@
 <fullyQualifiedTypeName name="com.ivorytower.app.entity.Postlistinfo"/>
 <fullyQualifiedTypeName name="com.ivorytower.app.service.impl.PostServiceImpl"/>
 <fullyQualifiedTypeName name="com.ivorytower.comm.Constants"/>
-<fullyQualifiedTypeName name="com.ivorytower.comm.Result"/>
 <fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPostsListDto"/>
 <fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPostDetailDto"/>
 <fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPostMoreDetailDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.comm.Result"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.CollectPostDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.ReportPostDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.AddNewPostDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.ModifyPostDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.ReplyPostDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.DeletePostDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.SearchPostDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.QryOnlineUsersListDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.RegisterDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.service.UserService"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.LoginDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.LogoutDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.QryPersonalMoreInfoDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.ModifyUserInfoDto"/>
+<fullyQualifiedTypeName name="com.ivorytower.app.dto.QryUserInfoDto"/>
 </qualifiedTypeNameHistroy>

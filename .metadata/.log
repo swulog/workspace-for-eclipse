@@ -3964,3 +3964,565 @@ java.io.FileNotFoundException: /Users/lc/Documents/workspace-for-eclipse/Univers
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-02-21 09:18:54.042 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -keyring /Users/lc/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/lc/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-21 09:19:07.216
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.team.core 4 0 2014-02-21 09:19:32.087
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project ITServer.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project ITServer.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2014-02-21 09:19:32.087
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project ITServer.
+
+!ENTRY org.eclipse.team.core 4 0 2014-02-21 09:19:32.391
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Servers.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project Servers.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2014-02-21 09:19:32.391
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Servers.
+
+!ENTRY org.eclipse.team.core 4 0 2014-02-21 09:19:32.458
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project UniversityM.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project UniversityM.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2014-02-21 09:19:32.459
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project UniversityM.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-02-21 09:53:00.173
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 1231.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-02-21 10:22:30.009
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2423.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.isSuspended(ThreadReferenceImpl.java:299)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:340)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-02-21 10:39:43.570
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2859.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValues(ObjectReferenceImpl.java:297)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValue(ObjectReferenceImpl.java:191)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:489)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-02-21 10:40:04.536
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2962.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-02-21 11:10:43.061
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3912.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 2 2014-02-21 15:58:29.024
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.launchesTerminated(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:313)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1001)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1117)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1151)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 120 2014-02-21 15:58:29.124
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.launchesTerminated(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:313)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1001)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1117)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1151)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-02-21 15:58:29.509
+!MESSAGE An internal error occurred during: "Shutting down server...".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.EASIECore.updateLaunchListener(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerShutdownAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.easie.core 1 0 2014-02-21 15:58:29.525
+!MESSAGE Hard Shutdown: tomcat7Server
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-02-21 15:58:29.557
+!MESSAGE An internal error occurred during: "Shutting down server...".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.EASIECore.updateLaunchListener(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerShutdownAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 2 2014-02-21 15:58:29.677
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.launchesAdded(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:279)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1001)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:689)
+	at com.genuitec.eclipse.core.JavaVMUtility.showInDebugger(JavaVMUtility.java:384)
+	at com.genuitec.eclipse.easie.core.EASIEServerManager.start(Unknown Source)
+	at com.genuitec.eclipse.easie.core.EASIEServer.start(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerStartAction.ā(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerStartAction.basicRun(Unknown Source)
+	at com.genuitec.eclipse.core.ui.action.LicenseValidatingAction.run(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerRestartAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 120 2014-02-21 15:58:29.695
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.launchesAdded(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:279)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1001)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:689)
+	at com.genuitec.eclipse.core.JavaVMUtility.showInDebugger(JavaVMUtility.java:384)
+	at com.genuitec.eclipse.easie.core.EASIEServerManager.start(Unknown Source)
+	at com.genuitec.eclipse.easie.core.EASIEServer.start(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerStartAction.ā(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerStartAction.basicRun(Unknown Source)
+	at com.genuitec.eclipse.core.ui.action.LicenseValidatingAction.run(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerRestartAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-02-21 15:58:35.301
+!MESSAGE An internal error occurred during: "Shutting down server...".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.EASIECore.updateLaunchListener(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerShutdownAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-02-21 15:58:35.317
+!MESSAGE An internal error occurred during: "Shutting down server...".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:568)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1733)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2521)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2944)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1450)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1506)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener$1.run(Unknown Source)
+	at com.genuitec.eclipse.core.ui.util.PlatformSWTUtil.postOnDisplayQueue(PlatformSWTUtil.java:154)
+	at com.genuitec.eclipse.easie.core.ServerLaunchListener.refreshViewer(Unknown Source)
+	at com.genuitec.eclipse.easie.core.EASIECore.updateLaunchListener(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerShutdownAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-02-21 15:59:06.802 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -keyring /Users/lc/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/lc/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-21 15:59:10.794
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.team.core 4 0 2014-02-21 15:59:27.949
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project ITServer.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project ITServer.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2014-02-21 15:59:27.950
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project ITServer.
+
+!ENTRY org.eclipse.team.core 4 0 2014-02-21 15:59:28.071
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Servers.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project Servers.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2014-02-21 15:59:28.071
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Servers.
+
+!ENTRY org.eclipse.team.core 4 0 2014-02-21 15:59:28.072
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project UniversityM.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project UniversityM.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:370)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:330)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2014-02-21 15:59:28.072
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project UniversityM.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-02-21 17:06:43.012
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 1916.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2014-02-21 17:40:05.606
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-61,5,main]" timed out waiting (5007ms) for thread "Thread[Worker-87,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.100.me201109222040 [938]". To avoid deadlock, thread "Thread[Worker-61,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/Applications/MyEclipse/Common/plugins/org.eclipse.wst.jsdt.core_1.1.100.me201109222040.jar" by thread "Worker-87".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 15 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-02-21 17:40:28.141
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2

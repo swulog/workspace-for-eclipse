@@ -87,7 +87,7 @@ public class PostServiceImpl extends BaseServiceImpl implements PostService {
 		sb.append(" select * from PostDetailInfo pdi1 where pdi1.pdi_parentid in  ");
 		sb.append(" (select pdi2.pdi_id from PostDetailInfo pdi2 where pdi2.pdi_parentid = " + dto.getPostid());
 		sb.append("  and pdi2.pdi_level = 1) and pdi1.pdi_level = 2) result1,UserExpandInfo uei where result1.pdi_userid = uei.uei_id ");
-		sb.append(" order by result1.pdi_id");
+		sb.append(" order by result1.createtime");
 		sb.append(" limit " + (dto.getPageno()-1)*dto.getPagesize() + "," + dto.getPagesize());
 		
 		System.out.println(sb.toString());
