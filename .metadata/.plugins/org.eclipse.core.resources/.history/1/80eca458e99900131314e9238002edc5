@@ -1,8 +1,0 @@
-package com.ivorytower.app.dto;
-
-public class AddNewPostDto {
-	
-	//for request
-	private int userid;
-
-}

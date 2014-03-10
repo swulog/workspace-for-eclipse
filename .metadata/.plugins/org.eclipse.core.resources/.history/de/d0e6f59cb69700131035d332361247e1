@@ -1,7 +1,0 @@
-package com.ivorytower.app.dto;
-
-public class TestDto {
-	
-	private String phoneno;//手机号码（非空）
-
-}

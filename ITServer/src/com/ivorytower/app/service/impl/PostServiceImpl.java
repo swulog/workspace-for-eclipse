@@ -1,6 +1,8 @@
 package com.ivorytower.app.service.impl;
 
+import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,6 +19,7 @@ import com.ivorytower.app.dto.QryPostsListDto;
 import com.ivorytower.app.dto.ReplyPostDto;
 import com.ivorytower.app.dto.ReportPostDto;
 import com.ivorytower.app.dto.SearchPostDto;
+import com.ivorytower.app.entity.Postlistinfo;
 import com.ivorytower.app.service.PostService;
 import com.ivorytower.comm.Result;
 
@@ -170,8 +173,19 @@ public class PostServiceImpl extends BaseServiceImpl implements PostService {
 
 	@Override
 	public void addNewPost(AddNewPostDto dto, Result result) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
+		Postlistinfo postinfo = new Postlistinfo();
+		postinfo.setPliPtiid(dto.getPosttype());
+		postinfo.setPliTitle(dto.getTitle());
+		postinfo.setPliContent(dto.getContent());
+		postinfo.setPliUserid(dto.getUserid());
+		postinfo.setPliIstop(0);
+		postinfo.setPliReplynum(0);
+		postinfo.setPliStatus(1);
+		postinfo.setPliReportnum(0);
+		postinfo.setPliCreatetime(new Timestamp(Calendar.getInstance().getTime().getTime()));
+		this.getBaseDao().insert(postinfo);
+
 	}
 
 	@Override

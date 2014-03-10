@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="47" version="2.0">
+<workbench progressCount="44" version="2.0">
 <workbenchAdvisor/>
-<window height="971" maximized="true" width="1920" x="175" y="126">
+<window height="768" maximized="true" minimized="true" width="1024" x="0" y="33">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -32,8 +32,8 @@
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.struts2.editor" itemType="typePlaceholder" x="316" y="22"/>
 <coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typePlaceholder" x="32" y="22"/>
-<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -49,13 +49,20 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAction.java" partName="TestAction.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/action/TestAction.java" title="TestAction.java" tooltip="ITServer/src/com/ivorytower/app/action/TestAction.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="344" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="343" selectionOffset="708" selectionTopPixel="247"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryPostsListAction.java" partName="QryPostsListAction.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/action/QryPostsListAction.java" title="QryPostsListAction.java" tooltip="ITServer/src/com/ivorytower/app/action/QryPostsListAction.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/action/QryPostsListAction.java"/>
@@ -63,11 +70,11 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PostService.java" partName="PostService.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/service/PostService.java" title="PostService.java" tooltip="ITServer/src/com/ivorytower/app/service/PostService.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/service/PostService.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="869" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="963" selectionTopPixel="0"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PostServiceImpl.java" partName="PostServiceImpl.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java" title="PostServiceImpl.java" tooltip="ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3291" selectionTopPixel="914"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6499" selectionTopPixel="2271"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryPostDetailAction.java" partName="QryPostDetailAction.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/action/QryPostDetailAction.java" title="QryPostDetailAction.java" tooltip="ITServer/src/com/ivorytower/app/action/QryPostDetailAction.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/action/QryPostDetailAction.java"/>
@@ -76,6 +83,31 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CollectPostDto.java" partName="CollectPostDto.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/dto/CollectPostDto.java" title="CollectPostDto.java" tooltip="ITServer/src/com/ivorytower/app/dto/CollectPostDto.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/dto/CollectPostDto.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="46" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryPostMoreDetailAction.java" partName="QryPostMoreDetailAction.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/action/QryPostMoreDetailAction.java" title="QryPostMoreDetailAction.java" tooltip="ITServer/src/com/ivorytower/app/action/QryPostMoreDetailAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/action/QryPostMoreDetailAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="982" selectionTopPixel="66"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddNewPostAction.java" partName="AddNewPostAction.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/action/AddNewPostAction.java" title="AddNewPostAction.java" tooltip="ITServer/src/com/ivorytower/app/action/AddNewPostAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/action/AddNewPostAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="915" selectionTopPixel="164"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddNewPostDto.java" partName="AddNewPostDto.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/dto/AddNewPostDto.java" title="AddNewPostDto.java" tooltip="ITServer/src/com/ivorytower/app/dto/AddNewPostDto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/dto/AddNewPostDto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="164" selectionTopPixel="0"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-mvc.xml" partName="applicationContext-mvc.xml" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml" title="applicationContext-mvc.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-mvc.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-terminal.xml" partName="applicationContext-terminal.xml" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/WebContent/WEB-INF/applicationContext-terminal.xml" title="applicationContext-terminal.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-terminal.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/WebContent/WEB-INF/applicationContext-terminal.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/WebContent/WEB-INF/web.xml" title="web.xml" tooltip="ITServer/WebContent/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/WebContent/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postlistinfo.java" partName="Postlistinfo.java" path="/Users/lc/Documents/workspace-for-eclipse/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java" title="Postlistinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postlistinfo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="1482" selectionTopPixel="1388"/>
 </editor>
 </editors>
 <views>
@@ -589,183 +621,149 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/LoginAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/DeletePostAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/ModifyPostAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/QryOnlineUsersListAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/QryPostMoreDetailAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/ReplyPostAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/ReportPostAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/SearchPostAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Posttypeinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Usercollectinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Usercourseinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Usernotesinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Userexpandinfo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/QryPostsListAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/QryPostDetailAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/service/PostService.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/service/impl/PostServiceImpl.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/QryPostsListAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/AddNewPostAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/dto/AddNewPostDto.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/service/PostService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/dto/CollectPostDto.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/QryPostDetailAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/ITServer/WebContent/WEB-INF/applicationContext-terminal.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ITServer/WebContent/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/action/TestAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
 </editors>
-<item historyLabel="SearchPostAction.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="4240" y="19"/>
 </item>
-<item historyLabel="TestAction.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AddNewPostAction.java" index="1">
+<position info="not_deleted" x="696" y="10"/>
 </item>
-<item historyLabel="LoginAction.java" index="0">
-<position info="not_deleted" x="392" y="0"/>
+<item historyLabel="AddNewPostDto.java" index="2">
+<position info="not_deleted" x="164" y="6"/>
 </item>
-<item historyLabel="ModifyPostAction.java" index="2">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="AddNewPostAction.java" index="1">
+<position info="not_deleted" x="696" y="10"/>
 </item>
-<item historyLabel="QryOnlineUsersListAction.java" index="3">
-<position info="not_deleted" x="405" y="0"/>
+<item historyLabel="PostService.java" index="3">
+<position info="not_deleted" x="767" y="19"/>
 </item>
-<item historyLabel="QryPostMoreDetailAction.java" index="4">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="PostService.java" index="3">
+<position info="not_deleted" x="963" y="10"/>
 </item>
-<item historyLabel="ReplyPostAction.java" index="5">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6083" y="10"/>
 </item>
-<item historyLabel="ReportPostAction.java" index="6">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6625" y="0"/>
 </item>
-<item historyLabel="SearchPostAction.java" index="7">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6627" y="0"/>
 </item>
-<item historyLabel="TestAction.java" index="8">
-<position info="not_deleted" x="354" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6629" y="0"/>
 </item>
-<item historyLabel="SearchPostAction.java" index="7">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6625" y="0"/>
 </item>
-<item historyLabel="ReportPostAction.java" index="6">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6627" y="0"/>
 </item>
-<item historyLabel="ReplyPostAction.java" index="5">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="applicationContext-mvc.xml" index="4">
+<position info="not_deleted" x="1982" y="1"/>
 </item>
-<item historyLabel="QryPostMoreDetailAction.java" index="4">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="applicationContext-terminal.xml" index="5"/>
+<item historyLabel="applicationContext-mvc.xml" index="4"/>
+<item historyLabel="web.xml" index="6"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6641" y="0"/>
 </item>
-<item historyLabel="QryOnlineUsersListAction.java" index="3">
-<position info="not_deleted" x="405" y="0"/>
+<item historyLabel="applicationContext-mvc.xml" index="4"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position/>
 </item>
-<item historyLabel="ModifyPostAction.java" index="2">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="applicationContext-mvc.xml" index="4"/>
+<item historyLabel="web.xml" index="6"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6625" y="0"/>
 </item>
-<item historyLabel="LoginAction.java" index="0">
-<position info="not_deleted" x="474" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6626" y="0"/>
 </item>
-<item historyLabel="DeletePostAction.java" index="1">
-<position info="not_deleted" x="479" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6625" y="0"/>
 </item>
-<item historyLabel="TestAction.java" index="8">
-<position info="not_deleted" x="307" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6626" y="0"/>
 </item>
-<item historyLabel="Postdetailinfo.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6744" y="0"/>
 </item>
-<item historyLabel="Postdetailinfo.java" index="9">
-<position info="not_deleted" x="424" y="14"/>
+<item historyLabel="web.xml" index="6"/>
+<item historyLabel="applicationContext-mvc.xml" index="4"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6625" y="0"/>
 </item>
-<item historyLabel="Postlistinfo.java" index="10">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="TestAction.java" index="7">
+<position info="not_deleted" x="708" y="343"/>
 </item>
-<item historyLabel="Postdetailinfo.java" index="9">
-<position info="not_deleted" x="502" y="48"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6175" y="0"/>
 </item>
-<item historyLabel="Postlistinfo.java" index="10">
-<position info="not_deleted" x="528" y="0"/>
+<item historyLabel="Postlistinfo.java" index="8">
+<position info="not_deleted" x="420" y="12"/>
 </item>
-<item historyLabel="Posttypeinfo.java" index="11">
-<position info="not_deleted" x="528" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6175" y="0"/>
 </item>
-<item historyLabel="Userbaseinfo.java" index="12">
-<position info="not_deleted" x="650" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6587" y="0"/>
 </item>
-<item historyLabel="Usercollectinfo.java" index="13">
-<position info="not_deleted" x="537" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6339" y="0"/>
 </item>
-<item historyLabel="Usercourseinfo.java" index="14">
-<position info="not_deleted" x="534" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6692" y="0"/>
 </item>
-<item historyLabel="Usernotesinfo.java" index="15">
-<position info="not_deleted" x="531" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position/>
 </item>
-<item historyLabel="Userrelationshipinfo.java" index="16">
-<position info="not_deleted" x="525" y="0"/>
+<item historyLabel="AddNewPostAction.java" index="1">
+<position info="not_deleted" x="915" y="0"/>
 </item>
-<item historyLabel="Userexpandinfo.java" index="17">
-<position info="not_deleted" x="534" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6507" y="0"/>
 </item>
-<item historyLabel="Posttypeinfo.java" index="11">
-<position info="not_deleted" x="528" y="0"/>
+<item historyLabel="Postlistinfo.java" index="8">
+<position info="not_deleted" x="1482" y="8"/>
 </item>
-<item historyLabel="Userbaseinfo.java" index="12">
-<position info="not_deleted" x="472" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6626" y="0"/>
 </item>
-<item historyLabel="TestAction.java" index="18">
-<position info="not_deleted" x="344" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6257" y="0"/>
 </item>
-<item historyLabel="QryPostsListAction.java" index="19">
-<position info="not_deleted" x="740" y="13"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6169" y="0"/>
 </item>
-<item historyLabel="QryPostDetailAction.java" index="20">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6215" y="0"/>
 </item>
-<item historyLabel="QryPostsListAction.java" index="19">
-<position info="not_deleted" x="961" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6258" y="0"/>
 </item>
-<item historyLabel="PostService.java" index="21">
-<position info="not_deleted" x="638" y="13"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6298" y="0"/>
 </item>
-<item historyLabel="PostServiceImpl.java" index="22">
-<position info="not_deleted" x="2192" y="2"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6297" y="0"/>
 </item>
-<item historyLabel="QryPostDetailAction.java" index="20">
-<position info="not_deleted" x="969" y="0"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6169" y="0"/>
 </item>
-<item historyLabel="PostService.java" index="21">
-<position info="not_deleted" x="701" y="15"/>
+<item historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6408" y="0"/>
 </item>
-<item historyLabel="PostServiceImpl.java" index="22">
-<position info="not_deleted" x="2401" y="15"/>
-</item>
-<item historyLabel="QryPostsListAction.java" index="23">
-<position info="not_deleted" x="961" y="0"/>
-</item>
-<item historyLabel="PostService.java" index="24">
-<position info="not_deleted" x="701" y="15"/>
-</item>
-<item historyLabel="PostService.java" index="24">
-<position info="not_deleted" x="869" y="0"/>
-</item>
-<item historyLabel="CollectPostDto.java" index="25">
-<position info="not_deleted" x="46" y="14"/>
-</item>
-<item historyLabel="QryPostDetailAction.java" index="26">
-<position info="not_deleted" x="969" y="0"/>
-</item>
-<item historyLabel="PostServiceImpl.java" index="22">
-<position info="not_deleted" x="3387" y="0"/>
-</item>
-<item historyLabel="PostServiceImpl.java" index="22">
-<position info="not_deleted" x="3292" y="0"/>
-</item>
-<item active="true" historyLabel="PostServiceImpl.java" index="22">
-<position info="not_deleted" x="3291" y="0"/>
+<item active="true" historyLabel="PostServiceImpl.java" index="0">
+<position info="not_deleted" x="6499" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -784,6 +782,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postlistinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postlistinfo.java">
+<persistable path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="ITServer/WebContent/WEB-INF/web.xml">
+<persistable path="/ITServer/WebContent/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-terminal.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-terminal.xml">
+<persistable path="/ITServer/WebContent/WEB-INF/applicationContext-terminal.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext-mvc.xml" tooltip="ITServer/WebContent/WEB-INF/applicationContext-mvc.xml">
+<persistable path="/ITServer/WebContent/WEB-INF/applicationContext-mvc.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddNewPostDto.java" tooltip="ITServer/src/com/ivorytower/app/dto/AddNewPostDto.java">
+<persistable path="/ITServer/src/com/ivorytower/app/dto/AddNewPostDto.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddNewPostAction.java" tooltip="ITServer/src/com/ivorytower/app/action/AddNewPostAction.java">
+<persistable path="/ITServer/src/com/ivorytower/app/action/AddNewPostAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QryPostMoreDetailAction.java" tooltip="ITServer/src/com/ivorytower/app/action/QryPostMoreDetailAction.java">
+<persistable path="/ITServer/src/com/ivorytower/app/action/QryPostMoreDetailAction.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CollectPostDto.java" tooltip="ITServer/src/com/ivorytower/app/dto/CollectPostDto.java">
 <persistable path="/ITServer/src/com/ivorytower/app/dto/CollectPostDto.java"/>
 </file>
@@ -807,27 +826,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userrelationshipinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java">
 <persistable path="/ITServer/src/com/ivorytower/app/entity/Userrelationshipinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usernotesinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Usernotesinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Usernotesinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usercourseinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Usercourseinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Usercourseinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usercollectinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Usercollectinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Usercollectinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Userbaseinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Userbaseinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Posttypeinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Posttypeinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Posttypeinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postlistinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postlistinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Postlistinfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Postdetailinfo.java" tooltip="ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java">
-<persistable path="/ITServer/src/com/ivorytower/app/entity/Postdetailinfo.java"/>
 </file>
 </mruList>
 </workbench>

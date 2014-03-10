@@ -53,7 +53,7 @@ public class Postlistinfo implements java.io.Serializable {
 	@GenericGenerator(name = "generator", strategy = "identity")
 	@Id
 	@GeneratedValue(generator = "generator")
-	@Column(name = "pli_id", unique = true, nullable = false)
+	@Column(name = "pli_id", unique = true)
 	public Integer getPliId() {
 		return this.pliId;
 	}
@@ -62,7 +62,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliId = pliId;
 	}
 
-	@Column(name = "pli_ptiid", nullable = false)
+	@Column(name = "pli_ptiid")
 	public Integer getPliPtiid() {
 		return this.pliPtiid;
 	}
@@ -71,7 +71,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliPtiid = pliPtiid;
 	}
 
-	@Column(name = "pli_title", nullable = false, length = 30)
+	@Column(name = "pli_title", length = 30)
 	public String getPliTitle() {
 		return this.pliTitle;
 	}
@@ -80,7 +80,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliTitle = pliTitle;
 	}
 
-	@Column(name = "pli_content", nullable = false, length = 65535)
+	@Column(name = "pli_content", length = 65535)
 	public String getPliContent() {
 		return this.pliContent;
 	}
@@ -89,7 +89,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliContent = pliContent;
 	}
 
-	@Column(name = "pli_userid", nullable = false)
+	@Column(name = "pli_userid")
 	public Integer getPliUserid() {
 		return this.pliUserid;
 	}
@@ -98,7 +98,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliUserid = pliUserid;
 	}
 
-	@Column(name = "pli_istop", nullable = false)
+	@Column(name = "pli_istop")
 	public Integer getPliIstop() {
 		return this.pliIstop;
 	}
@@ -107,7 +107,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliIstop = pliIstop;
 	}
 
-	@Column(name = "pli_replynum", nullable = false)
+	@Column(name = "pli_replynum")
 	public Integer getPliReplynum() {
 		return this.pliReplynum;
 	}
@@ -116,7 +116,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliReplynum = pliReplynum;
 	}
 
-	@Column(name = "pli_createtime", nullable = false, length = 19)
+	@Column(name = "pli_createtime", length = 19)
 	public Timestamp getPliCreatetime() {
 		return this.pliCreatetime;
 	}
@@ -125,7 +125,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliCreatetime = pliCreatetime;
 	}
 
-	@Column(name = "pli_status", nullable = false)
+	@Column(name = "pli_status")
 	public Integer getPliStatus() {
 		return this.pliStatus;
 	}
@@ -134,7 +134,7 @@ public class Postlistinfo implements java.io.Serializable {
 		this.pliStatus = pliStatus;
 	}
 
-	@Column(name = "pli_reportnum", nullable = false)
+	@Column(name = "pli_reportnum")
 	public Integer getPliReportnum() {
 		return this.pliReportnum;
 	}
